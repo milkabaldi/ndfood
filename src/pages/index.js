@@ -117,6 +117,7 @@ export default function Home() {
             </p>
           </a>
         </div>
+        <p className='text-start bg-red-400'>sadasdasdasdasdasdasdas</p>
       </main>
     </>
   )
