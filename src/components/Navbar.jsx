@@ -9,7 +9,9 @@ export const Navbar = () => {
     <section className={`${styles.paddingY} ${styles.paddingX}`}>
       <div className={`${styles.boxWidth} flex flex-col`} >
         <div className='flex justify-between items-center gap-5 mb-10'>
-          <Image src={images.NdLogo} alt='Logo' />
+          <Link href='/'>
+            <Image src={images.NdLogo} alt='Logo' />
+          </Link>
           <nav className='flex flex-row gap-5'>
             <a href="#dostavka">Доставка та оплата</a>
             <a href="#programa">Програма лояльності</a>
@@ -25,7 +27,9 @@ export const Navbar = () => {
             <span className='block'>Увійти <Link href='#Link'>або</Link> Зареєструватися</span>
           </div>
         </div>
-        <div className="menuSec text-black">Some text to this section</div>
+        <div className="menuSec text-black">
+          <ul><li>Menu</li></ul>
+        </div>
       </div>
     </section>
   )
