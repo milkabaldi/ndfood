@@ -1,0 +1,62 @@
+[
+    {
+      "id": "ALCOHOLPRODUCTS",
+      "name": "АЛКОГОЛЬНІ ВИРОБИ",
+      "link": "/ALCOHOLPRODUCTS"
+    },
+    {
+      "id": "NAPOYI",
+      "name": "НАПОЇ",
+      "link": "/NAPOYI"
+    },
+    {
+      "id": "sneky",
+      "name": "СНЕКИ",
+      "link": "/sneky"
+    },
+    {
+      "id": "HARYACHI-NAPOYI",
+      "name": "ГАРЯЧІ НАПОЇ",
+      "link": "/HARYACHI-NAPOYI"
+    },
+    {
+      "id": "SOLODOSHCHI",
+      "name": "СОЛОДОЩІ",
+      "link": "/SOLODOSHCHI"
+    },
+    {
+      "id": "GROCERY",
+      "name": "БАКАЛІЯ",
+      "link": "/GROCERY"
+    },
+    {
+      "id": "MYASNIVYROBY",
+      "name": "М’ЯСНІ ВИРОБИ",
+      "link": "/MYASNI-VYROBY"
+    },
+    {
+      "id": "SOLODOSHCHI",
+      "name": "СОЛОДОЩІ",
+      "link": "/SOLODOSHCHI"
+    },
+    {
+      "id": "MOLOCHNIVYROBY",
+      "name": "МОЛОЧНІ ВИРОБИ",
+      "link": "/MOLOCHNI-VYROBY"
+    },
+    {
+      "id": "VITAMINY",
+      "name": "ВІТАМІНИ",
+      "link": "/VITAMINY"
+    },
+    {
+      "id": "POBUTOVAKHIMIYA",
+      "name": "ПОБУТОВА ХІМІЯ",
+      "link": "/POBUTOVA-KHIMIYA"
+    },
+    {
+      "id": "AKTSIYI ",
+      "name": "АКЦІЇ %",
+      "link": "/AKTSIYI"
+    }
+  ]
