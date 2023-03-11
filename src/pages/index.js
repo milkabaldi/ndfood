@@ -1,11 +1,12 @@
 import Head from 'next/head'
 import { Navbar } from '@/components/Navbar'
+import { Footer } from '@/components/Footer'
 import { Inter } from 'next/font/google'
 
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Home({data}) {
   return (
     <>
       <Head>
@@ -15,8 +16,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Navbar />
+        <Navbar data={data} />
+        <Footer />
       </main>
     </>
   )
+}
+
+export async function getServerSideProps() {
+
+  const {menu} = await import ('/data/data.json')
+  return {
+    props: {
+      data: menu,
+    }, 
+  }
 }

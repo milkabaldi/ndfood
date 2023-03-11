@@ -1,9 +1,16 @@
 import React from 'react'
 
-const Footer = () => {
+export const Footer = ({title}) => {
   return (
-    <div>Footer</div>
+    <div>{title}</div>
   )
 }
 
-export default Footer
+
+export async function getServerSideProps() {
+  return {
+    props: {
+      title: "Hello my name footer",
+    }, 
+  }
+}

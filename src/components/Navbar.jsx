@@ -4,7 +4,7 @@ import images from '/src/constants/images'
 import Image  from 'next/image'
 import Link from 'next/link'
 
-export const Navbar = () => {
+export const Navbar = ({data}) => {
   return (
     <section className={`${styles.paddingY} ${styles.paddingX}`}>
       <div className={`${styles.boxWidth} flex flex-col`} >
@@ -28,9 +28,16 @@ export const Navbar = () => {
           </div>
         </div>
         <div className="menuSec text-black">
-          <ul><li>Menu</li></ul>
+          <ul>
+            {data.map((item)=>(
+              <li key={item.id}><a href={item.link}>{item.name}</a></li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>
   )
 }
+
+
+
