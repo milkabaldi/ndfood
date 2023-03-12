@@ -1,8 +1,7 @@
 import Head from 'next/head'
-import { Navbar } from '@/components/Navbar'
-import { Footer } from '@/components/Footer'
-import { Inter } from 'next/font/google'
 
+import { Inter } from 'next/font/google'
+import Homepage from './home/homepage'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,8 +15,7 @@ export default function Home({data}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Navbar data={data} />
-        <Footer />
+        <Homepage data={data} />
       </main>
     </>
   )

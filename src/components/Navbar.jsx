@@ -28,11 +28,14 @@ export const Navbar = ({data}) => {
           </div>
         </div>
         <div className="menuSec text-black">
-          <ul>
+          <ul className='flex gap-5 items-center justify-between'>
             {data.map((item)=>(
-              <li key={item.id}><a href={item.link}>{item.name}</a></li>
+              <li key={item.id}><a className='text-base' href={item.link}>{item.name}</a></li>
             ))}
           </ul>
+          <div>
+            <Image src={images.cart} alt='cart'/>
+          </div>
         </div>
       </div>
     </section>
