@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 export const Navbar = ({data}) => {
   return (
-    <section className={`${styles.paddingY} ${styles.paddingX}`}>
+    <header className={`${styles.paddingY} ${styles.paddingX} bg-secondary`}>
       <div className={`${styles.boxWidth} flex flex-col`} >
         <div className='flex justify-between items-center gap-5 mb-10'>
           <Link href='/'>
@@ -39,7 +39,7 @@ export const Navbar = ({data}) => {
           </button>
         </div>
       </div>
-    </section>
+    </header>
   )
 }
 
