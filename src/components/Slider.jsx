@@ -1,7 +1,20 @@
 import React from 'react'
 
-export const Slider = () => {
+export function Slider() {
+  function handleClick() {
+    console.log('increment like count');
+  }
+
   return (
-    <div>Slider</div>
-  )
+    <section>
+      <div className='banners'>
+        
+      </div>
+      <div className='buttons'>
+        <button onClick={handleClick} className='button'>Like</button>
+      </div>
+      
+    </section>
+  );
 }
+
