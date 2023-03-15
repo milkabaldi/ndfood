@@ -53,5 +53,47 @@
   "name": "АКЦІЇ %",
   "link": "/AKTSIYI"
 }
+],
+"banners":[
+  {
+    "bannersOne":[
+      {
+        "bannerOne": "images.bannerOne"
+      },
+      {
+        "bannerTwo": "images.bannerTwo"
+      },
+      {
+        "bannerThree": "images.bannerThree"
+      }
+    ]
+  },
+  {
+    "bannersTwo":[
+      {
+        "bannerOne": "images.bannerOne"
+      },
+      {
+        "bannerTwo": "images.bannerTwo"
+      },
+      {
+        "bannerThree": "images.bannerThree"
+      }
+    ]
+  },
+  {
+    "bannersThree":[
+      {
+        "bannerOne": "images.bannerOne"
+      },
+      {
+        "bannerTwo": "images.bannerTwo"
+      },
+      {
+        "bannerThree": "images.bannerThree"
+      }
+    ]
+  }
+
 ]
 }
