@@ -10,17 +10,26 @@ export function Slider() {
   }
 
   return (
-    <section>
+    <section className='pt-8'>
       <div className={`${styles.boxWidth} flex flex-col`}>
-        <div className="banners">
-          <div>
+        <div className="grid grid-rows-3 grid-flow-col gap-4">
+          <div className='row-span-3 '>
+            <a href="#banner">
             <Image  src={images.bannerOne} />
+            </a>
+            
           </div>
-          <div>
+          <div className='col-span-3 '>
+            <a href="#banner">
             <Image  src={images.bannerTwo} />
+            </a>
+            
           </div>
-          <div>
+          <div className='row-span-2 col-span-2 '>
+            <a href="#banner">
             <Image  src={images.bannerThree} />
+            </a>
+            
           </div>
         </div>
         <div className="buttons">
