@@ -74,23 +74,23 @@
         "bannerOne": "images.bannerOne"
       },
       {
-        "bannerTwo": "images.bannerTwo"
+        "bannerTwo": "images.bannerThree"
       },
       {
-        "bannerThree": "images.bannerThree"
+        "bannerThree": "images.bannerTwo"
       }
     ]
   },
   {
     "bannersThree":[
       {
-        "bannerOne": "images.bannerOne"
+        "bannerOne": "images.bannerThree"
       },
       {
         "bannerTwo": "images.bannerTwo"
       },
       {
-        "bannerThree": "images.bannerThree"
+        "bannerThree": "images.bannerOne"
       }
     ]
   }

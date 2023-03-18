@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useState }  from 'react'
 import styles from '/src/styles/styles.js'
 import images from '/src/constants/images'
 import Image from 'next/image'
 import Link from 'next/link'
 
 export function Slider() {
+  const [slide, setSlide] = React.useState()
+  
   function handleClick() {
     console.log('increment like count')
   }
