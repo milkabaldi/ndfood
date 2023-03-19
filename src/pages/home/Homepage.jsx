@@ -7,7 +7,7 @@ export default function Homepage({data}) {
   return (
     <>
         <Navbar data={data} />
-        <Slider />
+        <Slider data={data} />
         <Footer />
     </>
   )
