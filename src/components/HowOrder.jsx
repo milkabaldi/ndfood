@@ -2,6 +2,11 @@ import React from 'react'
 
 export const HowOrder = () => {
   return (
-    <div>HowOrder</div>
+    <div>
+      {data.map((item => (
+        <h1>dadada</h1>
+      )))
+      }
+    </div>
   )
 }
