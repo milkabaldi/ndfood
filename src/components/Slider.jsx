@@ -18,18 +18,18 @@ export function Slider() {
         <div className="grid grid-rows-2 grid-flow-col gap-4">
           <div className='row-span-3 '>
             <Link href="#banner">
-            <Image  src={images.bannerOne} />
+            <Image  src={images.bannerOne} alt='Proposition' />
             </Link>
           </div>
           <div className='col-span-3 '>
-            <Link href="#banner">
-            <Image  src={images.bannerTwo} />
+            <Link href="#banner" >
+            <Image  src={images.bannerTwo} alt='Proposition' />
             </Link>
             
           </div>
           <div className='row-span-2 col-span-2 '>
             <Link href="#banner">
-            <Image  src={images.bannerThree} />
+            <Image  src={images.bannerThree} alt='Proposition' />
             </Link>
             
           </div>
