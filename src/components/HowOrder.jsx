@@ -6,7 +6,7 @@ export const HowOrder = ({ mods }) => {
   return (
     <section className='hello'>
       <div>
-      {mods && mods.map((mod) => (
+      {mods.map((mod) => (
         <div>
           <span key={mod.title}>{mod.title}</span>
           <p key={mod.txt}>{mod.txt}</p>
