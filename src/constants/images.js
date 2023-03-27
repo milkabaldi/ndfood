@@ -9,7 +9,11 @@ import back1 from '/src/assets/back1.png'
 import back2 from '/src/assets/back2.png'
 import back3 from '/src/assets/back3.png'
 import back4 from '/src/assets/back4.png'
-
+import botle from '/src/assets/botle.png'
+import presentOne from '/src/assets/presentOne.png'
+import presentTwo from '/src/assets/presentTwo.png'
+import presentThree from '/src/assets/presentThree.png'
+import presentFour from '/src/assets/presentFour.png'
 
 
 export default  {
@@ -24,4 +28,10 @@ export default  {
     back2,
     back3,
     back4,
+    botle,
+    presentOne,
+    presentTwo,
+    presentThree,
+    presentFour
+
 }
