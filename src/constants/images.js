@@ -14,7 +14,18 @@ import presentOne   from '/src/assets/presentOne.png'
 import presentTwo   from '/src/assets/presentTwo.png'
 import presentThree from '/src/assets/presentThree.png'
 import presentFour  from '/src/assets/presentFour.png'
-
+import alcoOne      from '/src/assets/alcoOne.png'
+import alcoTwo      from '/src/assets/alcoTwo.png'
+import alcoThree    from '/src/assets/alcoThree.png'
+import DairyProducts from '/src/assets/Dairyproducts.png'
+import dinks from '/src/assets/drinks.png'
+import Grocery from '/src/assets/Grocery.png'
+import Hotdrinks from '/src/assets/Hotdrinks.png'
+import Householdchemicals from '/src/assets/Householdchemicals.png'
+import Meatproducts from '/src//assets/Meatproducts.png'
+import Snacks from '/src//assets/Snacks.png'
+import Sweets from '/src//assets/Sweets.png'
+import Vitamins from '/src//assets/Vitamins.png'
 
 export default  {
     NdLogo,
@@ -32,6 +43,6 @@ export default  {
     presentOne,
     presentTwo,
     presentThree,
-    presentFour
+    presentFour,
 
 }
