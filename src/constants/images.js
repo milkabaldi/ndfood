@@ -18,7 +18,7 @@ import alcoOne      from '/src/assets/alcoOne.png'
 import alcoTwo      from '/src/assets/alcoTwo.png'
 import alcoThree    from '/src/assets/alcoThree.png'
 import DairyProducts from '/src/assets/Dairyproducts.png'
-import dinks from '/src/assets/drinks.png'
+import drinks from '/src/assets/drinks.png'
 import Grocery from '/src/assets/Grocery.png'
 import Hotdrinks from '/src/assets/Hotdrinks.png'
 import Householdchemicals from '/src/assets/Householdchemicals.png'
@@ -29,6 +29,13 @@ import Vitamins from '/src//assets/Vitamins.png'
 
 export default  {
     NdLogo,
+    Grocery,
+    Hotdrinks,
+    Householdchemicals,
+    Meatproducts,
+    Snacks,
+    Sweets,
+    Vitamins,
     Account,
     Search,
     Cart,
@@ -44,5 +51,11 @@ export default  {
     presentTwo,
     presentThree,
     presentFour,
+    alcoOne,
+    alcoTwo,
+    alcoThree,
+    DairyProducts,
+    drinks,
+
 
 }
