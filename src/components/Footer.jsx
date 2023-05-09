@@ -11,7 +11,7 @@ export const Footer = () => {
           <li>Вінницька обл. м. Гайсин вул. 1 Травня 46 Г</li>
         </ul>     
       </div>
-      <div>
+      <div className='flex'>
         <span>КАТЕГОРІЇ</span>
         <ul>
           <li>Алкогольні вироби</li>
@@ -27,7 +27,7 @@ export const Footer = () => {
           <li>Акції</li>
         </ul>
       </div>
-      <div>
+      <div className='flex'>
         <span>ПОКУПЦЯМ</span>
         <ul>
           <li>Доставка та оплата</li>
@@ -36,7 +36,7 @@ export const Footer = () => {
           <li>Контакти</li>
         </ul>
       </div>
-      <div>
+      <div className='flex'>
         <p>+38 (096) 122 33 77</p>
         <span>Facebook</span>
         <span>Instagram</span>
