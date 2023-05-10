@@ -36,10 +36,11 @@ export const Footer = () => {
           <li>Контакти</li>
         </ul>
       </div>
-      <div className='flex'>
+      <div className='flex justify-center'>
         <p>+38 (096) 122 33 77</p>
         <span>Facebook</span>
         <span>Instagram</span>
+        <span>Twitter</span>
       </div>
     </div>
   )
