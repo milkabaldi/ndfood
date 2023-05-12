@@ -1,10 +1,15 @@
-import React from 'react'
+import React  from 'react'
+import styles from '/src/styles/styles.js'
+import images from '/src/constants/images'
+import Image  from 'next/image'
+import Link from 'next/link'
 
 export const Footer = () => {
   return (
-    <div className='grid grid-cols-4 gap-4'>
+    <section className={`${styles.paddingY} ${styles.paddingX} bg-secondary`}>
+      <div className={`${styles.boxWidth} grid grid-cols-4 gap-4`} >
       <div>
-        <img />
+        <Image />        
         <ul>
           <li>Магазин</li>
           <li>Пн-Нед: 9:00 - 19:00</li>
@@ -42,7 +47,9 @@ export const Footer = () => {
         <span>Instagram</span>
         <span>Twitter</span>
       </div>
+
     </div>
+    </section>
   )
 }
 
