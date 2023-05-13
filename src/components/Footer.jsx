@@ -9,7 +9,7 @@ export const Footer = () => {
     <section className={`${styles.paddingY} ${styles.paddingX} bg-secondary`}>
       <div className={`${styles.boxWidth} grid grid-cols-4 gap-4`} >
       <div>
-        <Image />        
+        <Image src={images.NdLogo} />        
         <ul>
           <li>Магазин</li>
           <li>Пн-Нед: 9:00 - 19:00</li>
