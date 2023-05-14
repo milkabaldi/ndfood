@@ -11,7 +11,7 @@ export const Footer = () => {
       <div>
         <Image src={images.NdLogo} />        
         <ul>
-          <li>Магазин</li>
+          <li>Магазин NDfood</li>
           <li>Пн-Нед: 9:00 - 19:00</li>
           <li>Вінницька обл. м. Гайсин вул. 1 Травня 46 Г</li>
         </ul>     
