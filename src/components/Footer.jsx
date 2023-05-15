@@ -11,41 +11,41 @@ export const Footer = () => {
       <div>
         <Image src={images.NdLogo} />        
         <ul>
-          <li>Магазин NDfood</li>
-          <li>Пн-Нед: 9:00 - 19:00</li>
-          <li>Вінницька обл. м. Гайсин вул. 1 Травня 46 Г</li>
+          <li><a>Магазин NDfood</a></li>
+          <li><a>Пн-Нед: 9:00 - 19:00</a></li>
+          <li><a>Вінницька обл. м. Гайсин вул. 1 Травня 46 Г</a></li>
         </ul>     
       </div>
       <div className=''>
         <span>КАТЕГОРІЇ</span>
         <ul>
-          <li>Алкогольні вироби</li>
-          <li>Напої</li>
-          <li>Снеки</li>
-          <li>Гарячі напої</li>
-          <li>Солодощі</li>
-          <li>Бакалія</li>
-          <li>М’ясні вироби</li>
-          <li>Молочні вироби</li>
-          <li>Вітаміни</li>
-          <li>Побутова хімія</li>
-          <li>Акції</li>
+          <li><a>Алкогольні вироби</a></li>
+          <li><a>Напої</a></li>
+          <li><a>Снеки</a></li>
+          <li><a>Гарячі напої</a></li>
+          <li><a>Солодощі</a></li>
+          <li><a>Бакалія</a></li>
+          <li><a>М’ясні вироби</a></li>
+          <li><a>Молочні вироби</a></li>
+          <li><a>Вітаміни</a></li>
+          <li><a>Побутова хімія</a></li>
+          <li><a>Акції</a></li>
         </ul>
       </div>
       <div className=''>
         <span>ПОКУПЦЯМ</span>
         <ul>
-          <li>Доставка та оплата</li>
-          <li>Програма лояльності</li>
-          <li>Подарункові сертифікати</li>
-          <li>Контакти</li>
+          <li><a>Доставка та оплата</a></li>
+          <li><a>Програма лояльності</a></li>
+          <li><a>Подарункові сертифікати</a></li>
+          <li><a>Контакти</a></li>
         </ul>
       </div>
       <div className=''>
-        <p>+38 (096) 122 33 77</p>
-        <span>Facebook</span>
-        <span>Instagram</span>
-        <span>Twitter</span>
+        <p><a>+38 (096) 122 33 77</a></p>
+        <span><a>Facebook</a></span>
+        <span><a>Instagram</a></span>
+        <span><a>Twitter</a></span>
       </div>
 
     </div>
