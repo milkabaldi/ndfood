@@ -19,33 +19,33 @@ export const Footer = () => {
       <div className=''>
         <span>КАТЕГОРІЇ</span>
         <ul>
-          <li><a>Алкогольні вироби</a></li>
-          <li><a>Напої</a></li>
-          <li><a>Снеки</a></li>
-          <li><a>Гарячі напої</a></li>
-          <li><a>Солодощі</a></li>
-          <li><a>Бакалія</a></li>
-          <li><a>М’ясні вироби</a></li>
-          <li><a>Молочні вироби</a></li>
-          <li><a>Вітаміни</a></li>
-          <li><a>Побутова хімія</a></li>
-          <li><a>Акції</a></li>
+          <li><a href='#'>Алкогольні вироби</a></li>
+          <li><a href='#'>Напої</a></li>
+          <li><a href='#'>Снеки</a></li>
+          <li><a href='#'>Гарячі напої</a></li>
+          <li><a href='#'>Солодощі</a></li>
+          <li><a href='#'>Бакалія</a></li>
+          <li><a href='#'>М’ясні вироби</a></li>
+          <li><a href='#'>Молочні вироби</a></li>
+          <li><a href='#'>Вітаміни</a></li>
+          <li><a href='#'>Побутова хімія</a></li>
+          <li><a href='#'>Акції</a></li>
         </ul>
       </div>
       <div className=''>
         <span>ПОКУПЦЯМ</span>
         <ul>
-          <li><a>Доставка та оплата</a></li>
-          <li><a>Програма лояльності</a></li>
-          <li><a>Подарункові сертифікати</a></li>
-          <li><a>Контакти</a></li>
+          <li><a href='#'>Доставка та оплата</a></li>
+          <li><a href='#'>Програма лояльності</a></li>
+          <li><a href='#'>Подарункові сертифікати</a></li>
+          <li><a href='#'>Контакти</a></li>
         </ul>
       </div>
       <div className=''>
-        <p><a>+38 (096) 122 33 77</a></p>
-        <span><a>Facebook</a></span>
-        <span><a>Instagram</a></span>
-        <span><a>Twitter</a></span>
+        <p><a href='#'>+38 (096) 122 33 77</a></p>
+        <span><a href='#'>Facebook</a></span>
+        <span><a href='#'>Instagram</a></span>
+        <span><a href='#'>Twitter</a></span>
       </div>
 
     </div>
