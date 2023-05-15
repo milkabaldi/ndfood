@@ -19,8 +19,8 @@ export const Footer = () => {
       <div className=''>
         <span>КАТЕГОРІЇ</span>
         <ul>
-          <li><a href='#'>Алкогольні вироби</a></li>
-          <li><a href='#'>Напої</a></li>
+          <li><a href='/'>Алкогольні вироби</a></li>
+          <li><a href='/'>Напої</a></li>
           <li><a href='#'>Снеки</a></li>
           <li><a href='#'>Гарячі напої</a></li>
           <li><a href='#'>Солодощі</a></li>
