@@ -21,11 +21,11 @@ export const Footer = () => {
         <ul>
           <li><a href='/'>Алкогольні вироби</a></li>
           <li><a href='/'>Напої</a></li>
-          <li><a href='#'>Снеки</a></li>
-          <li><a href='#'>Гарячі напої</a></li>
-          <li><a href='#'>Солодощі</a></li>
-          <li><a href='#'>Бакалія</a></li>
-          <li><a href='#'>М’ясні вироби</a></li>
+          <li><a href='/food'>Снеки</a></li>
+          <li><a href='/food'>Гарячі напої</a></li>
+          <li><a href='/food'>Солодощі</a></li>
+          <li><a href='/food'>Бакалія</a></li>
+          <li><a href='/food'>М’ясні вироби</a></li>
           <li><a href='#'>Молочні вироби</a></li>
           <li><a href='#'>Вітаміни</a></li>
           <li><a href='#'>Побутова хімія</a></li>
