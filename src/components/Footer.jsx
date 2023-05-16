@@ -26,19 +26,19 @@ export const Footer = () => {
           <li><a href='/food'>Солодощі</a></li>
           <li><a href='/food'>Бакалія</a></li>
           <li><a href='/food'>М’ясні вироби</a></li>
-          <li><a href='#'>Молочні вироби</a></li>
-          <li><a href='#'>Вітаміни</a></li>
-          <li><a href='#'>Побутова хімія</a></li>
-          <li><a href='#'>Акції</a></li>
+          <li><a href='/'>Молочні вироби</a></li>
+          <li><a href='/'>Вітаміни</a></li>
+          <li><a href='/'>Побутова хімія</a></li>
+          <li><a href='/'>Акції</a></li>
         </ul>
       </div>
       <div className=''>
         <span>ПОКУПЦЯМ</span>
         <ul>
-          <li><a href='#'>Доставка та оплата</a></li>
-          <li><a href='#'>Програма лояльності</a></li>
-          <li><a href='#'>Подарункові сертифікати</a></li>
-          <li><a href='#'>Контакти</a></li>
+          <li><a href='/buyer'>Доставка та оплата</a></li>
+          <li><a href='/buyer'>Програма лояльності</a></li>
+          <li><a href='/buyer'>Подарункові сертифікати</a></li>
+          <li><a href='/buyer'>Контакти</a></li>
         </ul>
       </div>
       <div className=''>
