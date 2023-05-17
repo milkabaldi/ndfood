@@ -42,10 +42,10 @@ export const Footer = () => {
         </ul>
       </div>
       <div className=''>
-        <p><a href='#'>+38 (096) 122 33 77</a></p>
-        <span><a href='#'>Facebook</a></span>
-        <span><a href='#'>Instagram</a></span>
-        <span><a href='#'>Twitter</a></span>
+        <p><a href='phone:380961223377'>+38 (096) 122 33 77</a></p>
+        <span><a href='Facebook.com'>Facebook</a></span>
+        <span><a href='Instagram.com'>Instagram</a></span>
+        <span><a href='Twitter.com'>Twitter</a></span>
       </div>
 
     </div>
