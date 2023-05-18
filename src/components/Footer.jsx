@@ -11,25 +11,25 @@ export const Footer = () => {
       <div>
         <Image src={images.NdLogo} />        
         <ul>
-          <li><a href='#'>Магазин NDfood</a></li>
-          <li><a href='#'>Пн-Нед: 9:00 - 19:00</a></li>
-          <li><a href='#'>Вінницька обл. м. Гайсин вул. 1 Травня 46 Г</a></li>
+          <li><Link href='#'>Магазин NDfood</Link></li>
+          <li><Link href='#'>Пн-Нед: 9:00 - 19:00</Link></li>
+          <li><Link href='#'>Вінницька обл. м. Гайсин вул. 1 Травня 46 Г</Link></li>
         </ul>     
       </div>
       <div className=''>
         <span>КАТЕГОРІЇ</span>
         <ul>
-          <li><a href='/'>Алкогольні вироби</a></li>
-          <li><a href='/'>Напої</a></li>
-          <li><a href='/food'>Снеки</a></li>
-          <li><a href='/food'>Гарячі напої</a></li>
-          <li><a href='/food'>Солодощі</a></li>
-          <li><a href='/food'>Бакалія</a></li>
-          <li><a href='/food'>М’ясні вироби</a></li>
-          <li><a href='/'>Молочні вироби</a></li>
-          <li><a href='/'>Вітаміни</a></li>
-          <li><a href='/'>Побутова хімія</a></li>
-          <li><a href='/'>Акції</a></li>
+          <li><Link href='/'>Алкогольні вироби</Link></li>
+          <li><Link href='/'>Напої</Link></li>
+          <li><Link href='/food'>Снеки</Link></li>
+          <li><Link href='/food'>Гарячі напої</Link></li>
+          <li><Link href='/food'>Солодощі</Link></li>
+          <li><Link href='/food'>Бакалія</Link></li>
+          <li><Link href='/food'>М’ясні вироби</Link></li>
+          <li><Link href='/'>Молочні вироби</Link></li>
+          <li><Link href='/'>Вітаміни</Link></li>
+          <li><Link href='/'>Побутова хімія</Link></li>
+          <li><Link href='/'>Акції</Link></li>
         </ul>
       </div>
       <div className=''>
