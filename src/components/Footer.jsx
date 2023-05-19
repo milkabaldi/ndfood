@@ -35,17 +35,17 @@ export const Footer = () => {
       <div className=''>
         <span>ПОКУПЦЯМ</span>
         <ul>
-          <li><a href='/buyer'>Доставка та оплата</a></li>
-          <li><a href='/buyer'>Програма лояльності</a></li>
-          <li><a href='/buyer'>Подарункові сертифікати</a></li>
-          <li><a href='/buyer'>Контакти</a></li>
+          <li><Link href='/buyer'>Доставка та оплата</Link></li>
+          <li><Link href='/buyer'>Програма лояльності</Link></li>
+          <li><Link href='/buyer'>Подарункові сертифікати</Link></li>
+          <li><Link href='/buyer'>Контакти</Link></li>
         </ul>
       </div>
       <div className=''>
-        <p><a href='phone:380961223377'>+38 (096) 122 33 77</a></p>
-        <span><a href='Facebook.com'>Facebook</a></span>
-        <span><a href='Instagram.com'>Instagram</a></span>
-        <span><a href='Twitter.com'>Twitter</a></span>
+        <p><Link href='phone:380961223377'>+38 (096) 122 33 77</Link></p>
+        <span><Link href='Facebook.com'>Facebook</Link></span>
+        <span><Link href='Instagram.com'>Instagram</Link></span>
+        <span><Link href='Twitter.com'>Twitter</Link></span>
       </div>
 
     </div>
