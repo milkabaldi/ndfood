@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const CustomSlider = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
   
-    const slides = ['']; // Define your slide content
+    const slides = ['bannersOne, bannersTwo, bannersThree']; // Define your slide content
   
     const prevSlide = () => {
       setCurrentIndex((prevIndex) => prevIndex === 0 ? slides.length - 1 : prevIndex - 1);
