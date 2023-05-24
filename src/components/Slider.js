@@ -3,7 +3,15 @@ import React, { useState } from 'react';
 const CustomSlider = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
   
-    const slides = ['bannersOne, bannersTwo, bannersThree']; // Define your slide content
+    useEffect(() => {
+      const fetchSlides = async () => {
+        const response = await fetch('/api/slider');
+        const data = await response.json();
+        setCurrentIndex(data);
+      };
+  
+      fetchSlides();
+    }, []);
   
     const prevSlide = () => {
       setCurrentIndex((prevIndex) => prevIndex === 0 ? slides.length - 1 : prevIndex - 1);
