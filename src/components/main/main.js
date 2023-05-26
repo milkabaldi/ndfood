@@ -3,7 +3,7 @@ import React from 'react'
 function main() {
   return (
     <main>
-      <section>
+      <section className=''>
         Main SSR
       </section>
     </main>
