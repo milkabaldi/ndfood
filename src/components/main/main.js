@@ -3,8 +3,9 @@ import React from 'react'
 function main() {
   return (
     <main>
-      <section className=''>
-        Main SSR
+       <section className={`${styles.paddingY} ${styles.paddingX} `}>
+      <div className={`${styles.boxWidth}`} ></div>
+        Main SSR for page ID
       </section>
     </main>
   )
