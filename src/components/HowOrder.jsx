@@ -6,7 +6,7 @@ export const HowOrder = ({ data }) => {
   return (
     <section className='hello'>
       <div>
-      {data && data.map((itme) => (
+      {data && data.map((item) => (
         <div>
           <span key={item.title}>{item.title}</span>
           <p key={item.txt}>{item.txt}</p>
