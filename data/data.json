@@ -60,62 +60,62 @@
   {
     "bannersOne":[
       {
-        "bannerOne": "images.bannerOne"
+        "bannerOne": "/src/assets/bannerOne.png"
       },
       {
-        "bannerTwo": "images.bannerTwo"
+        "bannerTwo": "/src/assets/bannerTwo.png"
       },
       {
-        "bannerThree": "images.bannerThree"
+        "bannerThree": "/src/assets/bannerThree.png"
       }
     ]
   },
   {
     "bannersTwo":[
       {
-        "bannerOne": "images.bannerOne"
+        "bannerOne": "/src/assets/bannerOne.png"
       },
       {
-        "bannerTwo": "images.bannerThree"
+        "bannerTwo": "/src/assets/bannerTwo.png"
       },
       {
-        "bannerThree": "images.bannerTwo"
+        "bannerThree": "/src/assets/bannerThree.png"
       }
     ]
   },
   {
     "bannersThree":[
       {
-        "bannerOne": "images.bannerThree"
+        "bannerOne": "/src/assets/bannerOne.png"
       },
       {
-        "bannerTwo": "images.bannerTwo"
+        "bannerTwo": "/src/assets/bannerTwo.png"
       },
       {
-        "bannerThree": "images.bannerOne"
+        "bannerThree": "/src/assets/bannerThree.png"
       }
     ]
   }
 
 ],
-"how_order":[
+"howOrder":[
   {
-    "img": "images.back1",
+    "img": "/src/assets/back1.png",
     "title": "Заявка на сайті",
     "txt": "Залишіть заявку на нашому сайті, додавши товар у кошик. Вся інформація конфіденційна."
   },
   {
-    "img": "images.back2",
+    "img": "/src/assets/back2.png",
     "title": "Звінок",
     "txt": "Менеджер уточнює деталі та затверджує замовлення"
   },
   {
-    "img": "images.back3",
+    "img": "/src/assets/back3.png",
     "title": "Зручна доставка",
     "txt": "Доставляємо у вказаний вами час Новою Поштою"
   },
   {
-    "img": "images.back4",
+    "img": "/src/assets/back4.png",
     "title": "Оплата",
     "txt": "Оплата при оформленні замовлення або отриманні готівкою або банківською карткою"
   }

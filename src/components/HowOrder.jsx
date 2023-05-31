@@ -1,31 +1,21 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+import data from '../../data/data.json';
+import images from '/src/constants/images'
 
-export const HowOrder = ({ data }) => {
+
+export const HowOrder = () => {
   return (
     <section className='hello'>
       <div>
-      {data && data.map((item) => (
-        <div>
-          <span key={item.title}>{item.title}</span>
-          <p key={item.txt}>{item.txt}</p>
-          <Image src={item.img} alt="background image" />
-        </div>
-
-))}
+        {data.howOrder.map((item) => (
+          <div key={item.title}>
+            <span>{item.title}</span>
+            <p>{item.txt}</p>
+            <Image src={item.img} alt="background image" width={100} height={100}/>
+          </div>
+        ))}
       </div>
-
     </section>
   )
-}
-
-export async function getStaticProps() {
-  const {how_order} = await import('/data/data.json');
-  console.log(how_order)
-  return{
-    props: {
-      data: how_order,
-    }
-  }
 }

@@ -1,6 +1,10 @@
 import React from 'react'
+import styles from '/src/styles/styles.js'
+import images from '/src/constants/images'
+import Image from 'next/image'
+import Link from 'next/link'
 
-function main() {
+export const Main = () => {
   return (
     <main>
        <section className={`${styles.paddingY} ${styles.paddingX} `}>
@@ -11,5 +15,3 @@ function main() {
     </main>
   )
 }
-
-export default main

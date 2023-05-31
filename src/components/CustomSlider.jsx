@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
-const CustomSlider = () => {
+export const CustomSlider = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
   
     useEffect(() => {
@@ -23,6 +23,7 @@ const CustomSlider = () => {
   
     return (
       <div className=''>
+        <h1>CUstom Slider</h1>
         <button className='' onClick={prevSlide}>
           Previous
         </button>
@@ -34,4 +35,3 @@ const CustomSlider = () => {
     );
   };
 
-  export default CustomSlider;
