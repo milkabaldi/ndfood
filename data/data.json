@@ -60,39 +60,39 @@
   {
     "bannersOne":[
       {
-        "bannerOne": "/src/assets/bannerOne.png"
+        "bannerOne": "assets/bannerOne.png"
       },
       {
-        "bannerTwo": "/src/assets/bannerTwo.png"
+        "bannerTwo": "assets/bannerTwo.png"
       },
       {
-        "bannerThree": "/src/assets/bannerThree.png"
+        "bannerThree": "assets/bannerThree.png"
       }
     ]
   },
   {
     "bannersTwo":[
       {
-        "bannerOne": "/src/assets/bannerOne.png"
+        "bannerOne": "assets/bannerOne.png"
       },
       {
-        "bannerTwo": "/src/assets/bannerTwo.png"
+        "bannerTwo": "assets/bannerTwo.png"
       },
       {
-        "bannerThree": "/src/assets/bannerThree.png"
+        "bannerThree": "assets/bannerThree.png"
       }
     ]
   },
   {
     "bannersThree":[
       {
-        "bannerOne": "/src/assets/bannerOne.png"
+        "bannerOne": "assets/bannerOne.png"
       },
       {
-        "bannerTwo": "/src/assets/bannerTwo.png"
+        "bannerTwo": "assets/bannerTwo.png"
       },
       {
-        "bannerThree": "/src/assets/bannerThree.png"
+        "bannerThree": "assets/bannerThree.png"
       }
     ]
   }

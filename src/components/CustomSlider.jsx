@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-export const CustomSlider = () => {
+export const CustomSlider = ({ slides }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
   
     useEffect(() => {
@@ -22,15 +22,18 @@ export const CustomSlider = () => {
     };
   
     return (
-      <div className=''>
-        <h1>CUstom Slider</h1>
-        <button className='' onClick={prevSlide}>
-          Previous
-        </button>
-        <div className=''>{slides[currentIndex]}</div>
-        <button className='' onClick={nextSlide}>
-          Next
-        </button>
+      <div>
+        <h1>Custom Slider</h1>
+        <button onClick={prevSlide}>Previous</button>
+        {slides && slides.length > 0 && (
+          <div>
+            {slides[currentIndex] &&
+              Object.entries(slides[currentIndex]).map(([key, value]) => (
+                <img key={key} src={value} alt={key} />
+              ))}
+          </div>
+        )}
+        <button onClick={nextSlide}>Next</button>
       </div>
     );
   };

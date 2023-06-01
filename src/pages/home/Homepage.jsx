@@ -6,15 +6,15 @@ import { HowOrder } from '@/components/HowOrder'
 import {Main} from '@/components/Main/main'
 import {CustomSlider} from '@/components/CustomSlider'
 
+
 export default function Homepage({ data }) {
-  const slides = data.banners[0].bannersOne;
   return (
     <>
       <Navbar data={data} />
       <Slider />
       <Main />
       <HowOrder />
-      <CustomSlider slides={slides} />
+      <CustomSlider slides={data.banners} />
       <Footer />
     </>
   )
