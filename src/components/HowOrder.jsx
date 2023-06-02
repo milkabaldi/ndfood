@@ -6,8 +6,8 @@ import images from '/src/constants/images'
 
 export const HowOrder = () => {
   return (
-    <section className='hello'>
-      <div>
+    <section className={`${styles.paddingY} ${styles.paddingX} `}>
+      <div className={`${styles.boxWidth} `} >
         {data.howOrder.map((item) => (
           <div key={item.title}>
             <span>{item.title}</span>
