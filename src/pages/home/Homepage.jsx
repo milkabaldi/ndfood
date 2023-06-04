@@ -12,8 +12,8 @@ export default function Homepage({ data }) {
     <>
       <Navbar data={data} />
       <Slider />
-      <Main />
       <HowOrder />
+      <Main />
       <CustomSlider slides={data.banners} />
       <Footer />
     </>

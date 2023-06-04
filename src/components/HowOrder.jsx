@@ -9,6 +9,7 @@ export const HowOrder = () => {
   return (
     <section className={`${styles.paddingY} ${styles.paddingX} `}>
       <div className={`${styles.boxWidth} `} >
+        <h1>Як оформити замовлення?</h1>
         {data.howOrder.map((item) => (
           <div key={item.title}>
             <span>{item.title}</span>
