@@ -9,7 +9,7 @@ export const HowOrder = () => {
   return (
     <section className={`${styles.paddingY} ${styles.paddingX} `}>
       <div className={`${styles.boxWidth} `} >
-        <h1>Як оформити замовлення?</h1>
+        <h1 className='text-3xl text-center mb-10'>Як оформити замовлення?</h1>
         <div className='grid grid-cols-4 gap-4'>
         {data.howOrder.map((item) => (
           <div key={item.title} className='p-8 bg-white rounded-xl  shadow-lg shadow-black-500/50'>
