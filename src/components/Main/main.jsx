@@ -9,7 +9,7 @@ export const Main = () => {
     <main>
        <section className={`${styles.paddingY} ${styles.paddingX} `}>
       <div className={`${styles.boxWidth}`} >
-        Main SSR for page ID just another test
+        Main SSR for page ID just another test for elements add
         </div>
       </section>
     </main>
