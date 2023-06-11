@@ -9,7 +9,7 @@ export const Main = () => {
     <main>
        <section className={`${styles.paddingY} ${styles.paddingX} `}>
       <div className={`${styles.boxWidth}`} >
-        Create flexble section
+       Create new pages
         </div>
       </section>
     </main>
