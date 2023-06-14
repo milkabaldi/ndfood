@@ -3,7 +3,8 @@ import Footer from './Footer.jsx'
 import Slider from './slider.jsx'
 import HowOrder from './HowOrder.jsx'
 import CustomSlider from './Slider.jsx'
-import Main from './[main]/main.jsx'
+import MainLayout from './MainLayout.jsx'
+
 
 export default {
   Footer,
@@ -11,5 +12,6 @@ export default {
   Slider,
   HowOrder,
   CustomSlider,
-  Main,
+  MainLayout,
+
 }

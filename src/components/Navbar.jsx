@@ -3,8 +3,9 @@ import styles from '/src/styles/styles.js'
 import images from '/src/constants/images'
 import Image  from 'next/image'
 import Link from 'next/link'
+import data from '../../data/data.json'
 
-export const Navbar = ({data}) => {
+export const Navbar = () => {
   return (
     <header className={`${styles.paddingY} ${styles.paddingX} bg-secondary`}>
       <div className={`${styles.boxWidth} flex flex-col`} >
@@ -29,7 +30,7 @@ export const Navbar = ({data}) => {
         </div>
         <div className="flex justify-between">
           <ul className='flex gap-5 items-center '>
-            {data.map((item)=>(
+            {data.menu.map((item)=>(
               <li key={item.id}><a className='text-base text-dimGrey hover:text-dimMoca transition-colors ease-in-out duration-300' href={item.link}>{item.name}</a></li>
             ))}
           </ul>
