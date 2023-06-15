@@ -25,7 +25,7 @@ export const Navbar = () => {
           </div>
           <div className='flex justify-between items-end gap-1'>
             <Image src={images.Account} alt='account' />
-            <span className='block text-dimGrey text-base '>Увійти <Link href='#Link' className='text-dimLate hover:text-dimMoca transition-colors ease-in-out duration-300'>або</Link> Зареєструватися</span>
+            <span className='block text-dimGrey text-base '>Увійти <Link href='/profile' className='text-dimLate hover:text-dimMoca transition-colors ease-in-out duration-300'>або</Link> Зареєструватися</span>
           </div>
         </div>
         <div className="flex justify-between">

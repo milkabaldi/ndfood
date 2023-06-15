@@ -1,14 +1,12 @@
 import React from 'react'
-
-
-
+import {LogIn}  from '@/components/LogIn'
 
 const Profile = () => {
-    return (
-      <div className='profile'>
-       User Profile 
-      </div>
-    )
-  }
-  
-  export default Profile
+  return (
+    <>
+      <LogIn />
+    </>
+  )
+}
+
+export default Profile

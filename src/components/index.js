@@ -4,7 +4,7 @@ import Slider from './slider.jsx'
 import HowOrder from './HowOrder.jsx'
 import CustomSlider from './Slider.jsx'
 import MainLayout from './MainLayout.jsx'
-
+import LogIn from './LogIn.jsx'
 
 export default {
   Footer,
@@ -13,5 +13,5 @@ export default {
   HowOrder,
   CustomSlider,
   MainLayout,
-
+  LogIn,
 }
