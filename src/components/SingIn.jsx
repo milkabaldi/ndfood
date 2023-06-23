@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function SingIn() {
   return (
-    <div>SingIn</div>
+    <div>
+      <button>Sing Up</button>
+    </div>
   )
 }
