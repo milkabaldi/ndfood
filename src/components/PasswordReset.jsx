@@ -3,7 +3,7 @@ import React from 'react'
 export default function PasswordReset() {
   return (
     <div>
-      <button>Reset</button>
+      <button>Reset password</button>
     </div>
   )
 }
