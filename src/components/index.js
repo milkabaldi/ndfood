@@ -5,6 +5,9 @@ import HowOrder from './HowOrder.jsx'
 import CustomSlider from './Slider.jsx'
 import MainLayout from './MainLayout.jsx'
 import LogIn from './LogIn.jsx'
+import PasswordReset from './PasswordReset.jsx'
+import SingIn from './SingIn.jsx'
+
 
 export default {
   Footer,
@@ -14,4 +17,6 @@ export default {
   CustomSlider,
   MainLayout,
   LogIn,
+  PasswordReset,
+  SingIn,
 }
