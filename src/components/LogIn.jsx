@@ -12,9 +12,9 @@ export const LogIn = () => {
             <h1 className='text-primary text-center mb-8 text-7xl font-semibold	'>Особистий кабінет</h1>
         </div>
             <ul className='flex gap-x-16 items-center justify-center mb-10'>
-                <li><a href="£">Особисті дані</a></li>
-                <li><a href="£">Мої замовлення</a></li>
-                <li><a href="£">Змінити пароль</a></li>
+                <li><a href="#">Особисті дані</a></li>
+                <li><a href="#">Мої замовлення</a></li>
+                <li><a href="#">Змінити пароль</a></li>
             </ul>
         <form className='flex flex-col w-96 m-auto p-'>
         <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
