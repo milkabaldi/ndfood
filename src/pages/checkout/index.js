@@ -1,11 +1,14 @@
 import React from 'react'
-
+import Image from 'next/image'
+import data from '../../data/data.json';
+import styles from '/src/styles/styles.js'
+import images from '/src/constants/images'
 
 
 const Checkout = () => {
   return (
     <div>
-            <h1>Checkout Test</h1>
+            <span>Checkout Test</span>
     </div>
   )
 }
