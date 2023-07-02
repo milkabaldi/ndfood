@@ -7,7 +7,12 @@ import images from '/src/constants/images'
 const Checkout = () => {
   return (
     <section className={`${styles.paddingY} ${styles.paddingX} bg-secondary`}>
-      <div className={`${styles.boxWidth} `}>Checkout</div>
+      <div className={`${styles.boxWidth} `}>
+        <h1>Checkout</h1>
+        <div>
+          list
+        </div>
+      </div>
     </section>
   )
 }
