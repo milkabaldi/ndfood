@@ -10,7 +10,11 @@ const Checkout = () => {
       <div className={`${styles.boxWidth} `}>
         <h1>Checkout</h1>
         <div>
-          list
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+
         </div>
       </div>
     </section>
