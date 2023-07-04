@@ -9,12 +9,18 @@ const Checkout = () => {
     <section className={`${styles.paddingY} ${styles.paddingX} bg-secondary`}>
       <div className={`${styles.boxWidth} `}>
         <h1>Checkout</h1>
-        <div>
+        <div className=''>
+          <h2>Спосіб доставки</h2>
           <input type="text" />
           <input type="text" />
           <input type="text" />
           <input type="text" />
 
+        </div>
+        <div>
+          <h2>Ваше замовлення</h2>
+          <input type="text" />
+          <input type="text" />
         </div>
       </div>
     </section>
