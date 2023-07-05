@@ -19,6 +19,7 @@ const Checkout = () => {
         </div>
         <div>
           <h2>Ваше замовлення</h2>
+          <label htmlFor="">Товар</label>
           <input type="text" />
           <input type="text" />
         </div>
