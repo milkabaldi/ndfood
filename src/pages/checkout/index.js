@@ -21,6 +21,9 @@ const Checkout = () => {
           <h2>Ваше замовлення</h2>
           <label htmlFor="">Товар</label>
           <input type="text" />
+          <label htmlFor="">Товар</label>
+          <input type="text" />
+          <label htmlFor="">Товар</label>
           <input type="text" />
         </div>
       </div>
