@@ -20,11 +20,11 @@ const Checkout = () => {
         <div>
           <h2>Ваше замовлення</h2>
           <label htmlFor="">Товар</label>
-          <input type="text"  />
+         <img src="" alt="" />
           <label htmlFor="">Ціна</label>
-          <input type="text" />
+         
           <label htmlFor="">Досставка</label>
-          <input type="text" />
+         
         </div>
       </div>
     </section>
