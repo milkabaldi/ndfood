@@ -22,9 +22,9 @@ const Checkout = () => {
           <label htmlFor="">Товар</label>
          <img src="" alt="" />
           <label htmlFor="">Ціна</label>
-         
+         <img src="" alt="" />
           <label htmlFor="">Досставка</label>
-         
+         <img src="" alt="" />
         </div>
       </div>
     </section>
