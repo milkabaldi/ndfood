@@ -7,6 +7,7 @@ import MainLayout from './MainLayout.jsx'
 import LogIn from './LogIn.jsx'
 import PasswordReset from './PasswordReset.jsx'
 import SingIn from './SingIn.jsx'
+import MyOrder from './MyOrder.jsx'
 
 
 export default {
@@ -19,4 +20,5 @@ export default {
   LogIn,
   PasswordReset,
   SingIn,
+  MyOrder,
 }

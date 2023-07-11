@@ -1,6 +1,6 @@
 import React, { useState, useEffect }  from 'react'
 import {LogIn}  from '@/components/LogIn'
-import SingIn from '@/components/SingIn'
+import MyOrder from '@/components/MyOrder'
 import PasswordReset from '@/components/PasswordReset'
 
 const Profile = () => {
@@ -17,9 +17,9 @@ const Profile = () => {
     if (activeTab === 'login') {
       return 'Особисті дані';
     } else if (activeTab === 'passwordReset') {
-      return 'Мої замовлення';
-    } else if (activeTab === 'signIn') {
       return 'Змінити пароль';
+    } else if (activeTab === 'myOrder') {
+      return 'Мої замовлення';
     }
     return '';
   };
@@ -36,12 +36,13 @@ const Profile = () => {
             <ul className='flex gap-x-16 items-center justify-center mb-10'>
                 <li><button onClick={() => handleTabClick('login')}>Особисті дані</button>
         </li>
-                <li><button onClick={() => handleTabClick('passwordReset')}>Мої замовлення</button></li>
-                <li><button onClick={() => handleTabClick('signIn')}>Змінити пароль</button></li>
+        <li><button onClick={() => handleTabClick('myOrder')}>Мої замовлення</button></li>
+                <li><button onClick={() => handleTabClick('passwordReset')}>Змінити пароль</button></li>
+                
             </ul>
       {activeTab === 'login' && <LogIn />}
       {activeTab === 'passwordReset' && <PasswordReset />}
-      {activeTab === 'signIn' && <SingIn />}
+      {activeTab === 'myOrder' && <MyOrder />}
     </>
   );
 };
