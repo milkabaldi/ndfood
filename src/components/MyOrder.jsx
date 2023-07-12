@@ -15,6 +15,12 @@ export default function MyOrder() {
                     <span>Сума</span>
                     <span>Статус</span>
             </div>
+            <div className='flex'>
+              <div>Номер заказа</div>
+              <div>Товари</div>
+              <div>Сума</div>
+              <div>Статус</div>
+            </div>
         </div>
     </div>
   )
