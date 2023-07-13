@@ -16,10 +16,19 @@ export default function MyOrder() {
                     <span>Статус</span>
             </div>
             <div className='flex'>
-              <div>Номер заказа</div>
+              <div>
+                <span>№312415</span>
+                <span>04.01.2023</span>
+              </div>
               <div>Товари</div>
-              <div>Сума</div>
-              <div>Статус</div>
+              <div>
+                <span>2500 ₴</span>
+              </div>
+              <div>
+                <span>
+                  Відправлено
+                </span>
+              </div>
             </div>
         </div>
     </div>
