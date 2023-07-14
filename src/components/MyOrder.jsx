@@ -25,9 +25,18 @@ export default function MyOrder() {
                 <span>2500 ₴</span>
               </div>
               <div>
-                <span>
+                <ul>
+                  <li><span>
                   Відправлено
-                </span>
+                </span></li>
+                  <li><span>
+                  Відправлено
+                </span></li>
+                  <li><span>
+                  Відправлено
+                </span></li>
+                </ul>
+                
               </div>
             </div>
         </div>
