@@ -23,8 +23,21 @@ export default function MyOrder() {
               <div>Товари</div>
               <div>
                 <span>2500 ₴</span>
+                <span>2500 ₴</span>
+                <span>2500 ₴</span>
               </div>
               <div>
+                <ul>
+                  <li><span>
+                  Відправлено
+                </span></li>
+                  <li><span>
+                  Відправлено
+                </span></li>
+                  <li><span>
+                  Відправлено
+                </span></li>
+                </ul>
                 <ul>
                   <li><span>
                   Відправлено
