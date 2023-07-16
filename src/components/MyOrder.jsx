@@ -7,8 +7,8 @@ import images from '/src/constants/images'
 
 export default function MyOrder() {
   return (
-    <div className='pt-14 pb-20'>
-        <div className='container'>
+    <section className={`${styles.paddingY} ${styles.paddingX} `}>
+      <div className={`${styles.boxWidth} `} >
             <div className=''>
                     <span>Заказ</span>
                     <span>Товари</span>
@@ -17,42 +17,24 @@ export default function MyOrder() {
             </div>
             <div className='flex'>
               <div>
-                <span>№312415</span>
-                <span>04.01.2023</span>
+                <div>№312415</div>
+                <div>04.01.2023</div>
               </div>
-              <div>Товари</div>
               <div>
-                <span>2500 ₴</span>
-                <span>2500 ₴</span>
-                <span>2500 ₴</span>
+                <Image alt='Товар' src={images.Sweets} />
+              </div>
+              <div>
+                <div>2500 ₴</div> 
               </div>
               <div>
                 <ul>
                   <li><span>
                   Відправлено
                 </span></li>
-                  <li><span>
-                  Відправлено
-                </span></li>
-                  <li><span>
-                  Відправлено
-                </span></li>
-                </ul>
-                <ul>
-                  <li><span>
-                  Відправлено
-                </span></li>
-                  <li><span>
-                  Відправлено
-                </span></li>
-                  <li><span>
-                  Відправлено
-                </span></li>
-                </ul>
-                
+                  </ul>
               </div>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
