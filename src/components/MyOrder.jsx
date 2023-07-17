@@ -9,7 +9,7 @@ export default function MyOrder() {
   return (
     <section className={`${styles.paddingY} ${styles.paddingX} `}>
       <div className={`${styles.boxWidth} `} >
-            <div className=''>
+            <div className='flex items-center justify-between'>
                     <span>Заказ</span>
                     <span>Товари</span>
                     <span>Сума</span>
