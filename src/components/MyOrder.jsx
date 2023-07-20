@@ -22,7 +22,43 @@ export default function MyOrder() {
               </div>
               <div>
                 <Image alt='Товар' src={images.Sweets} width={60}/>
+              </div>
+              <div>
+                <div>2500 ₴</div> 
+              </div>
+              <div>
+                <ul>
+                  <li><span>
+                  Відправлено
+                </span></li>
+                  </ul>
+              </div>
+            </div>
+            <div className='flex  justify-between border-b-4 pt-6 pb-5'>
+              <div>
+                <div>№312415</div>
+                <div>04.01.2023</div>
+              </div>
+              <div>
                 <Image alt='Товар' src={images.Sweets} width={60}/>
+              </div>
+              <div>
+                <div>2500 ₴</div> 
+              </div>
+              <div>
+                <ul>
+                  <li><span>
+                  Відправлено
+                </span></li>
+                  </ul>
+              </div>
+            </div>
+            <div className='flex  justify-between border-b-4 pt-6 pb-5'>
+              <div>
+                <div>№312415</div>
+                <div>04.01.2023</div>
+              </div>
+              <div>
                 <Image alt='Товар' src={images.Sweets} width={60}/>
               </div>
               <div>
