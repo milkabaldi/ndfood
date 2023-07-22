@@ -36,8 +36,8 @@ export default function MyOrder() {
             </div>
             <div className='flex  justify-between border-b-4 pt-6 pb-5'>
               <div>
-                <div>№312415</div>
-                <div>04.01.2023</div>
+                <div>№521242</div>
+                <div>14.05.2023</div>
               </div>
               <div>
                 <Image alt='Товар' src={images.Sweets} width={60}/>
@@ -45,12 +45,12 @@ export default function MyOrder() {
                 <Image alt='Товар' src={images.Sweets} width={60}/>
               </div>
               <div>
-                <div>2500 ₴</div> 
+                <div>5400 ₴</div> 
               </div>
               <div>
                 <ul>
                   <li><span>
-                  Відправлено
+                  Очікує оплати
                 </span></li>
                   </ul>
               </div>
