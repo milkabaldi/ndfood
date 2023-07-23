@@ -39,7 +39,7 @@ export default function MyOrder() {
                 <div>№521242</div>
                 <div>14.05.2023</div>
               </div>
-              <div>
+              <div className='flex gap-5'>
                 <Image alt='Товар' src={images.Sweets} width={60}/>
                 <Image alt='Товар' src={images.Sweets} width={60}/>
                 <Image alt='Товар' src={images.Sweets} width={60}/>
