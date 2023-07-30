@@ -43,6 +43,8 @@ export default function MyOrder() {
                 <Image alt='Товар' src={images.Sweets} width={60}/>
                 <Image alt='Товар' src={images.Sweets} width={60}/>
                 <Image alt='Товар' src={images.Sweets} width={60}/>
+                <Image alt='Товар' src={images.Sweets} width={60}/>
+                <Image alt='Товар' src={images.Sweets} width={60}/>
               </div>
               <div>
                 <div>5400 ₴</div> 
