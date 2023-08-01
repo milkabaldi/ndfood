@@ -11,7 +11,7 @@ export default function SingIn() {
     <section className='p-20 fixed top-0 right-0 bg-secondary h-full'>
       <div className='flex justify-between mb-10'>
         <span className='text-xl'>Вхід</span>
-        <span className='flex gap-2'>Нема аккаунта?<Link href='#' >Зареєструватися</Link></span>
+        <span className='flex gap-2'>Нема аккаунта?<Link href='#' className='text-dimLate hover:text-dimMoca transition-colors ease-in-out duration-300' >Зареєструватися</Link></span>
       </div>
         <form className='flex flex-col w-96 m-auto p-'>
         <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
@@ -22,7 +22,6 @@ export default function SingIn() {
             <button type="submit" class="bg-dimLate hover:bg-dimMoca transition-colors ease-in-out duration-300 py-5 px-9 text-secondary text-center">Реєстрація</button>
             </div>     
         </form>
-        second Test
     </section>
   )
 }
