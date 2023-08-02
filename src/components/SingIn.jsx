@@ -8,7 +8,7 @@ import images from '/src/constants/images'
 
 export default function SingIn() {
   return (
-    <section className='p-20 fixed top-0 right-0 bg-secondary h-full'>
+    <section className='p-20 fixed top-0 right-0 bg-secondary h-full hidden'>
       <div className='flex justify-between mb-10'>
         <span className='text-xl'>Вхід</span>
         <span className='flex gap-2'>Нема аккаунта?<Link href='#' className='text-dimLate hover:text-dimMoca transition-colors ease-in-out duration-300' >Зареєструватися</Link></span>
