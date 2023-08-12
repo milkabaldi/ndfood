@@ -2,9 +2,8 @@ import React from 'react'
 
 export const Category = () => {
   return (
-    <div>Category
-      <p>Category</p>
-    <nav>Category</nav>
+    <div>
+      <p>Test for me</p>
     </div>
     
   )
