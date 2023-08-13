@@ -5,7 +5,7 @@ export const Category = () => {
     <section>
       <h2>Test for me</p>
       <div>block</div>
-    </div>
+    </section>
     
   )
 }
