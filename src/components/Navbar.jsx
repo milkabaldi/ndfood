@@ -36,7 +36,7 @@ export const Navbar = () => {
           </ul>
           <button className='bg-dimLate hover:bg-dimMoca transition-colors ease-in-out duration-300 py-5 px-9 flex justify-between gap-2 items-center'>
             <Image src={images.Cart} alt='cart'/>
-            <span className='block'>5 товара - ₴ 5,453</span>
+            <span className='block'>5 товарів - ₴ 5,333</span>
           </button>
         </div>
       </div>
