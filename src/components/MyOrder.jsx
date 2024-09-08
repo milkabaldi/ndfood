@@ -13,7 +13,7 @@ export default function MyOrder() {
                     <span>Заказ</span>
                     <span>Товари</span>
                     <span>Сума</span>
-                    <span>Статус</span>
+                    <span>Статус замовлення</span>
             </div>
             <div className='flex  justify-between border-b-4 pt-6 pb-5'>
               <div>
